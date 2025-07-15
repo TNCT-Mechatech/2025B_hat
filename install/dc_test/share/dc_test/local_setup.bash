@@ -1,0 +1,1 @@
+/home/mechatech/dev_ws/src/dc_test copy/build/dc_test/ament_cmake_environment_hooks/local_setup.bash

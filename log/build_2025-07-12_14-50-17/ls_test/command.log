@@ -1,0 +1,6 @@
+Invoking command in '/home/mechatech/dev_ws/src/ls_test/build/ls_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mechatech/dev_ws/src/ls_test -DCMAKE_INSTALL_PREFIX=/home/mechatech/dev_ws/src/ls_test/install/ls_test
+Invoked command in '/home/mechatech/dev_ws/src/ls_test/build/ls_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mechatech/dev_ws/src/ls_test -DCMAKE_INSTALL_PREFIX=/home/mechatech/dev_ws/src/ls_test/install/ls_test
+Invoking command in '/home/mechatech/dev_ws/src/ls_test/build/ls_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mechatech/dev_ws/src/ls_test/build/ls_test -- -j4 -l4
+Invoked command in '/home/mechatech/dev_ws/src/ls_test/build/ls_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mechatech/dev_ws/src/ls_test/build/ls_test -- -j4 -l4
+Invoking command in '/home/mechatech/dev_ws/src/ls_test/build/ls_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mechatech/dev_ws/src/ls_test/build/ls_test
+Invoked command in '/home/mechatech/dev_ws/src/ls_test/build/ls_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mechatech/dev_ws/src/ls_test/build/ls_test

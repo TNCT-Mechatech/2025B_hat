@@ -1,0 +1,16 @@
+/home/mechatech/dev_ws/src/dc_test/install/dc_test/lib/dc_test/main
+/home/mechatech/dev_ws/src/dc_test/install/dc_test/share/ament_index/resource_index/package_run_dependencies/dc_test
+/home/mechatech/dev_ws/src/dc_test/install/dc_test/share/ament_index/resource_index/parent_prefix_path/dc_test
+/home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/environment/ament_prefix_path.sh
+/home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/environment/ament_prefix_path.dsv
+/home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/environment/path.sh
+/home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/environment/path.dsv
+/home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/local_setup.bash
+/home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/local_setup.sh
+/home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/local_setup.zsh
+/home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/local_setup.dsv
+/home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/package.dsv
+/home/mechatech/dev_ws/src/dc_test/install/dc_test/share/ament_index/resource_index/packages/dc_test
+/home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/cmake/dc_testConfig.cmake
+/home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/cmake/dc_testConfig-version.cmake
+/home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/package.xml

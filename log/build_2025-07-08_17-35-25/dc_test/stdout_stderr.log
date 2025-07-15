@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target main[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[01m[K/home/mechatech/dev_ws/src/dc_test/src/main.cpp:[m[K In member function ‘[01m[Kvoid SerialNode::joy_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mechatech/dev_ws/src/dc_test/src/main.cpp:70:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct ControllerType[m[K’ has no member named ‘[01m[Kmoter1[m[K’; did you mean ‘[01m[Kmotor1[m[K’?
+   70 |       con.data.[01;31m[Kmoter1[m[K = lx/2;
+      |                [01;31m[K^~~~~~[m[K
+      |                [32m[Kmotor1[m[K
+[01m[K/home/mechatech/dev_ws/src/dc_test/src/main.cpp:72:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct ControllerType[m[K’ has no member named ‘[01m[Kmoter1[m[K’; did you mean ‘[01m[Kmotor1[m[K’?
+   72 |       con.data.[01;31m[Kmoter1[m[K = 0;
+      |                [01;31m[K^~~~~~[m[K
+      |                [32m[Kmotor1[m[K
+gmake[2]: *** [CMakeFiles/main.dir/build.make:76: CMakeFiles/main.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/main.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

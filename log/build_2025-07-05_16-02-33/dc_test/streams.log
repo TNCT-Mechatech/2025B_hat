@@ -1,0 +1,26 @@
+[0.054s] Invoking command in '/home/mechatech/dev_ws/src/dc_test/build/dc_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mechatech/dev_ws/src/dc_test/build/dc_test -- -j4 -l4
+[0.244s] [35m[1mConsolidate compiler generated dependencies of target main[0m
+[0.356s] [ 50%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[33.799s] [100%] [32m[1mLinking CXX executable main[0m
+[42.250s] [100%] Built target main
+[42.305s] Invoked command in '/home/mechatech/dev_ws/src/dc_test/build/dc_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mechatech/dev_ws/src/dc_test/build/dc_test -- -j4 -l4
+[42.340s] Invoking command in '/home/mechatech/dev_ws/src/dc_test/build/dc_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mechatech/dev_ws/src/dc_test/build/dc_test
+[42.369s] -- Install configuration: ""
+[42.370s] -- Execute custom install script
+[42.373s] -- Up-to-date symlink: /home/mechatech/dev_ws/src/dc_test/install/dc_test/lib/dc_test/main
+[42.374s] -- Up-to-date symlink: /home/mechatech/dev_ws/src/dc_test/install/dc_test/share/ament_index/resource_index/package_run_dependencies/dc_test
+[42.375s] -- Up-to-date symlink: /home/mechatech/dev_ws/src/dc_test/install/dc_test/share/ament_index/resource_index/parent_prefix_path/dc_test
+[42.376s] -- Up-to-date symlink: /home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/environment/ament_prefix_path.sh
+[42.378s] -- Up-to-date symlink: /home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/environment/ament_prefix_path.dsv
+[42.380s] -- Up-to-date symlink: /home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/environment/path.sh
+[42.381s] -- Up-to-date symlink: /home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/environment/path.dsv
+[42.382s] -- Up-to-date symlink: /home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/local_setup.bash
+[42.382s] -- Up-to-date symlink: /home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/local_setup.sh
+[42.383s] -- Up-to-date symlink: /home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/local_setup.zsh
+[42.384s] -- Up-to-date symlink: /home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/local_setup.dsv
+[42.385s] -- Symlinking: /home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/package.dsv
+[42.419s] -- Up-to-date symlink: /home/mechatech/dev_ws/src/dc_test/install/dc_test/share/ament_index/resource_index/packages/dc_test
+[42.420s] -- Up-to-date symlink: /home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/cmake/dc_testConfig.cmake
+[42.420s] -- Up-to-date symlink: /home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/cmake/dc_testConfig-version.cmake
+[42.421s] -- Up-to-date symlink: /home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/package.xml
+[42.428s] Invoked command in '/home/mechatech/dev_ws/src/dc_test/build/dc_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mechatech/dev_ws/src/dc_test/build/dc_test

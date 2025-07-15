@@ -1,0 +1,10 @@
+/home/mechatech/dev_ws/src/ls_test/build/ls_test/CMakeFiles/uninstall.dir
+/home/mechatech/dev_ws/src/ls_test/build/ls_test/CMakeFiles/ls_test_uninstall.dir
+/home/mechatech/dev_ws/src/ls_test/build/ls_test/CMakeFiles/main.dir
+/home/mechatech/dev_ws/src/ls_test/build/ls_test/CMakeFiles/test.dir
+/home/mechatech/dev_ws/src/ls_test/build/ls_test/CMakeFiles/edit_cache.dir
+/home/mechatech/dev_ws/src/ls_test/build/ls_test/CMakeFiles/rebuild_cache.dir
+/home/mechatech/dev_ws/src/ls_test/build/ls_test/CMakeFiles/list_install_components.dir
+/home/mechatech/dev_ws/src/ls_test/build/ls_test/CMakeFiles/install.dir
+/home/mechatech/dev_ws/src/ls_test/build/ls_test/CMakeFiles/install/local.dir
+/home/mechatech/dev_ws/src/ls_test/build/ls_test/CMakeFiles/install/strip.dir

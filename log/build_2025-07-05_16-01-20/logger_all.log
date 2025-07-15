@@ -1,0 +1,105 @@
+[0.475s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.475s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffb13622f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb1361de0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb1361de0>>, mixin_verb=('build',))
+[1.676s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.677s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.677s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.678s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.678s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.678s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.679s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mechatech/dev_ws/src/dc_test'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.744s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'dc_test'
+[1.744s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.744s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.745s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.745s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.745s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.886s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.886s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.898s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/mechatech/dev_ws/install
+[1.909s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 318 installed packages in /opt/ros/humble
+[1.916s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.160s] Level 5:colcon.colcon_core.verb:set package 'dc_test' build argument 'cmake_args' from command line to 'None'
+[2.161s] Level 5:colcon.colcon_core.verb:set package 'dc_test' build argument 'cmake_target' from command line to 'None'
+[2.161s] Level 5:colcon.colcon_core.verb:set package 'dc_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.161s] Level 5:colcon.colcon_core.verb:set package 'dc_test' build argument 'cmake_clean_cache' from command line to 'False'
+[2.161s] Level 5:colcon.colcon_core.verb:set package 'dc_test' build argument 'cmake_clean_first' from command line to 'False'
+[2.161s] Level 5:colcon.colcon_core.verb:set package 'dc_test' build argument 'cmake_force_configure' from command line to 'False'
+[2.162s] Level 5:colcon.colcon_core.verb:set package 'dc_test' build argument 'ament_cmake_args' from command line to 'None'
+[2.162s] Level 5:colcon.colcon_core.verb:set package 'dc_test' build argument 'catkin_cmake_args' from command line to 'None'
+[2.162s] Level 5:colcon.colcon_core.verb:set package 'dc_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.162s] DEBUG:colcon.colcon_core.verb:Building package 'dc_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mechatech/dev_ws/src/dc_test/build/dc_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mechatech/dev_ws/src/dc_test/install/dc_test', 'merge_install': False, 'path': '/home/mechatech/dev_ws/src/dc_test', 'symlink_install': False, 'test_result_base': None}
+[2.163s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.167s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.169s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mechatech/dev_ws/src/dc_test' with build type 'ament_cmake'
+[2.170s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mechatech/dev_ws/src/dc_test'
+[2.182s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.183s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.183s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mechatech/dev_ws/src/dc_test/build/dc_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mechatech/dev_ws/src/dc_test/build/dc_test -- -j4 -l4
+[44.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mechatech/dev_ws/src/dc_test/build/dc_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mechatech/dev_ws/src/dc_test/build/dc_test -- -j4 -l4
+[44.707s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mechatech/dev_ws/src/dc_test/build/dc_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mechatech/dev_ws/src/dc_test/build/dc_test
+[44.792s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dc_test)
+[44.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mechatech/dev_ws/src/dc_test/build/dc_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mechatech/dev_ws/src/dc_test/build/dc_test
+[44.805s] Level 1:colcon.colcon_core.environment:checking '/home/mechatech/dev_ws/src/dc_test/install/dc_test' for CMake module files
+[44.808s] Level 1:colcon.colcon_core.environment:checking '/home/mechatech/dev_ws/src/dc_test/install/dc_test' for CMake config files
+[44.811s] Level 1:colcon.colcon_core.shell:create_environment_hook('dc_test', 'cmake_prefix_path')
+[44.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/hook/cmake_prefix_path.ps1'
+[44.814s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/hook/cmake_prefix_path.dsv'
+[44.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/hook/cmake_prefix_path.sh'
+[44.821s] Level 1:colcon.colcon_core.environment:checking '/home/mechatech/dev_ws/src/dc_test/install/dc_test/lib'
+[44.822s] Level 1:colcon.colcon_core.environment:checking '/home/mechatech/dev_ws/src/dc_test/install/dc_test/bin'
+[44.822s] Level 1:colcon.colcon_core.environment:checking '/home/mechatech/dev_ws/src/dc_test/install/dc_test/lib/pkgconfig/dc_test.pc'
+[44.823s] Level 1:colcon.colcon_core.environment:checking '/home/mechatech/dev_ws/src/dc_test/install/dc_test/lib/python3.10/site-packages'
+[44.824s] Level 1:colcon.colcon_core.environment:checking '/home/mechatech/dev_ws/src/dc_test/install/dc_test/bin'
+[44.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/package.ps1'
+[44.829s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/package.dsv'
+[44.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/package.sh'
+[44.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/package.bash'
+[44.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/package.zsh'
+[44.841s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mechatech/dev_ws/src/dc_test/install/dc_test/share/colcon-core/packages/dc_test)
+[44.844s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dc_test)
+[44.845s] Level 1:colcon.colcon_core.environment:checking '/home/mechatech/dev_ws/src/dc_test/install/dc_test' for CMake module files
+[44.848s] Level 1:colcon.colcon_core.environment:checking '/home/mechatech/dev_ws/src/dc_test/install/dc_test' for CMake config files
+[44.850s] Level 1:colcon.colcon_core.shell:create_environment_hook('dc_test', 'cmake_prefix_path')
+[44.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/hook/cmake_prefix_path.ps1'
+[44.854s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/hook/cmake_prefix_path.dsv'
+[44.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/hook/cmake_prefix_path.sh'
+[44.859s] Level 1:colcon.colcon_core.environment:checking '/home/mechatech/dev_ws/src/dc_test/install/dc_test/lib'
+[44.860s] Level 1:colcon.colcon_core.environment:checking '/home/mechatech/dev_ws/src/dc_test/install/dc_test/bin'
+[44.860s] Level 1:colcon.colcon_core.environment:checking '/home/mechatech/dev_ws/src/dc_test/install/dc_test/lib/pkgconfig/dc_test.pc'
+[44.861s] Level 1:colcon.colcon_core.environment:checking '/home/mechatech/dev_ws/src/dc_test/install/dc_test/lib/python3.10/site-packages'
+[44.862s] Level 1:colcon.colcon_core.environment:checking '/home/mechatech/dev_ws/src/dc_test/install/dc_test/bin'
+[44.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/package.ps1'
+[44.866s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/package.dsv'
+[44.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/package.sh'
+[44.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/package.bash'
+[44.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/package.zsh'
+[44.876s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mechatech/dev_ws/src/dc_test/install/dc_test/share/colcon-core/packages/dc_test)
+[44.877s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[44.878s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[44.878s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[44.879s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[44.900s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[44.901s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[44.901s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[44.906s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[44.906s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[44.908s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mechatech/dev_ws/src/dc_test/install/local_setup.ps1'
+[44.912s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mechatech/dev_ws/src/dc_test/install/_local_setup_util_ps1.py'
+[44.923s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mechatech/dev_ws/src/dc_test/install/setup.ps1'
+[44.934s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mechatech/dev_ws/src/dc_test/install/local_setup.sh'
+[44.937s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mechatech/dev_ws/src/dc_test/install/_local_setup_util_sh.py'
+[44.940s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mechatech/dev_ws/src/dc_test/install/setup.sh'
+[44.945s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mechatech/dev_ws/src/dc_test/install/local_setup.bash'
+[44.947s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mechatech/dev_ws/src/dc_test/install/setup.bash'
+[44.952s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mechatech/dev_ws/src/dc_test/install/local_setup.zsh'
+[44.954s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mechatech/dev_ws/src/dc_test/install/setup.zsh'

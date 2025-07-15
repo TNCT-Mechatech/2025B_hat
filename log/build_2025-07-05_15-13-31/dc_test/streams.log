@@ -1,0 +1,71 @@
+[0.054s] Invoking command in '/home/mechatech/dev_ws/src/dc_test/build/dc_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mechatech/dev_ws/src/dc_test -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mechatech/dev_ws/src/dc_test/install/dc_test
+[0.619s] -- The C compiler identification is GNU 11.4.0
+[0.906s] -- The CXX compiler identification is GNU 11.4.0
+[0.947s] -- Detecting C compiler ABI info
+[1.327s] -- Detecting C compiler ABI info - done
+[1.359s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.365s] -- Detecting C compile features
+[1.365s] -- Detecting C compile features - done
+[1.378s] -- Detecting CXX compiler ABI info
+[1.786s] -- Detecting CXX compiler ABI info - done
+[1.819s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.821s] -- Detecting CXX compile features
+[1.822s] -- Detecting CXX compile features - done
+[1.854s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.635s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.925s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.373s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[3.802s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.859s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.926s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.014s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.134s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.471s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.499s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.128s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.407s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.857s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.946s] -- Looking for pthread.h
+[6.319s] -- Looking for pthread.h - found
+[6.324s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.745s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.754s] -- Found Threads: TRUE  
+[7.125s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[7.327s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[7.425s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.080s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.082s] -- Configured cppcheck include dirs: /home/mechatech/dev_ws/src/dc_test/include;/home/mechatech/dev_ws/src/dc_test/include/dc_test;/home/mechatech/dev_ws/src/dc_test/SerialBridge/src
+[8.082s] -- Configured cppcheck exclude dirs and/or files: 
+[8.130s] -- Added test 'lint_cmake' to check CMake code style
+[8.274s] -- Added test 'uncrustify' to check C / C++ code style
+[8.275s] -- Configured uncrustify additional arguments: 
+[8.293s] -- Added test 'xmllint' to check XML markup files
+[8.304s] -- Configuring done
+[8.814s] -- Generating done
+[8.847s] -- Build files have been written to: /home/mechatech/dev_ws/src/dc_test/build/dc_test
+[8.888s] Invoked command in '/home/mechatech/dev_ws/src/dc_test/build/dc_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mechatech/dev_ws/src/dc_test -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mechatech/dev_ws/src/dc_test/install/dc_test
+[8.899s] Invoking command in '/home/mechatech/dev_ws/src/dc_test/build/dc_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mechatech/dev_ws/src/dc_test/build/dc_test -- -j4 -l4
+[9.161s] [ 50%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[42.401s] [100%] [32m[1mLinking CXX executable main[0m
+[50.900s] [100%] Built target main
+[50.945s] Invoked command in '/home/mechatech/dev_ws/src/dc_test/build/dc_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mechatech/dev_ws/src/dc_test/build/dc_test -- -j4 -l4
+[50.986s] Invoking command in '/home/mechatech/dev_ws/src/dc_test/build/dc_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mechatech/dev_ws/src/dc_test/build/dc_test
+[51.015s] -- Install configuration: ""
+[51.016s] -- Execute custom install script
+[51.020s] -- Symlinking: /home/mechatech/dev_ws/src/dc_test/install/dc_test/lib/dc_test/main
+[51.051s] -- Symlinking: /home/mechatech/dev_ws/src/dc_test/install/dc_test/share/ament_index/resource_index/package_run_dependencies/dc_test
+[51.087s] -- Symlinking: /home/mechatech/dev_ws/src/dc_test/install/dc_test/share/ament_index/resource_index/parent_prefix_path/dc_test
+[51.121s] -- Symlinking: /home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/environment/ament_prefix_path.sh
+[51.159s] -- Symlinking: /home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/environment/ament_prefix_path.dsv
+[51.193s] -- Symlinking: /home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/environment/path.sh
+[51.227s] -- Symlinking: /home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/environment/path.dsv
+[51.260s] -- Symlinking: /home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/local_setup.bash
+[51.293s] -- Symlinking: /home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/local_setup.sh
+[51.327s] -- Symlinking: /home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/local_setup.zsh
+[51.360s] -- Symlinking: /home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/local_setup.dsv
+[51.394s] -- Symlinking: /home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/package.dsv
+[51.428s] -- Symlinking: /home/mechatech/dev_ws/src/dc_test/install/dc_test/share/ament_index/resource_index/packages/dc_test
+[51.462s] -- Symlinking: /home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/cmake/dc_testConfig.cmake
+[51.496s] -- Symlinking: /home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/cmake/dc_testConfig-version.cmake
+[51.530s] -- Symlinking: /home/mechatech/dev_ws/src/dc_test/install/dc_test/share/dc_test/package.xml
+[51.570s] Invoked command in '/home/mechatech/dev_ws/src/dc_test/build/dc_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mechatech/dev_ws/src/dc_test/build/dc_test
