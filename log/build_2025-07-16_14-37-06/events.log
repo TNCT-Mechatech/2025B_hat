@@ -1,0 +1,648 @@
+[0.000000] (-) TimerEvent: {}
+[0.001595] (hat) JobQueued: {'identifier': 'hat', 'dependencies': OrderedDict()}
+[0.002209] (hat) JobStarted: {'identifier': 'hat'}
+[0.060530] (hat) JobProgress: {'identifier': 'hat', 'progress': 'cmake'}
+[0.063204] (hat) Command: {'cmd': ['/usr/bin/cmake', '/home/mechatech/dev_ws/src/hat', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/mechatech/dev_ws/src/hat/install/hat'], 'cwd': '/home/mechatech/dev_ws/src/hat/build/hat', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mechatech'), ('SSH_CLIENT', '192.168.10.201 42394 22'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/mechatech/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/lib'), ('BROWSER', '/home/mechatech/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/mechatech'), ('OLDPWD', '/home/mechatech/dev_ws/src'), ('TERM_PROGRAM_VERSION', '1.101.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-84e986ee-3941-47f8-b600-9a1fede0d625.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/mechatech/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/mechatech/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/mechatech/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mechatech'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mechatech/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/mechatech/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-063e2dd46e.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/mechatech/dev_ws/install/ls_test:/home/mechatech/dev_ws/install/hat:/home/mechatech/dev_ws/install/feetech_controller:/home/mechatech/dev_ws/install/dc_test:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/mechatech/dev_ws/src/hat/build/hat'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.10.201 42394 192.168.10.215 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/mechatech/dev_ws/install/ls_test:/home/mechatech/dev_ws/install/hat:/home/mechatech/dev_ws/install/feetech_controller:/home/mechatech/dev_ws/install/dc_test:/opt/ros/humble')]), 'shell': False}
+[0.099076] (-) TimerEvent: {}
+[0.199922] (-) TimerEvent: {}
+[0.300781] (-) TimerEvent: {}
+[0.401605] (-) TimerEvent: {}
+[0.502500] (-) TimerEvent: {}
+[0.603263] (-) TimerEvent: {}
+[0.704445] (-) TimerEvent: {}
+[0.805505] (-) TimerEvent: {}
+[0.906920] (-) TimerEvent: {}
+[0.914817] (hat) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.007116] (-) TimerEvent: {}
+[1.107967] (-) TimerEvent: {}
+[1.208947] (-) TimerEvent: {}
+[1.309900] (-) TimerEvent: {}
+[1.410961] (-) TimerEvent: {}
+[1.477400] (hat) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.511127] (-) TimerEvent: {}
+[1.538321] (hat) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.611317] (-) TimerEvent: {}
+[1.712105] (-) TimerEvent: {}
+[1.812978] (-) TimerEvent: {}
+[1.913863] (-) TimerEvent: {}
+[1.951574] (hat) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.978599] (hat) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.981094] (hat) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.985036] (hat) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.002709] (hat) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.014065] (-) TimerEvent: {}
+[2.114888] (-) TimerEvent: {}
+[2.216370] (-) TimerEvent: {}
+[2.317585] (-) TimerEvent: {}
+[2.418974] (-) TimerEvent: {}
+[2.428479] (hat) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.455572] (hat) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.456781] (hat) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.458629] (hat) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.504451] (hat) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.519156] (-) TimerEvent: {}
+[2.620831] (-) TimerEvent: {}
+[2.721589] (-) TimerEvent: {}
+[2.822859] (-) TimerEvent: {}
+[2.924093] (-) TimerEvent: {}
+[3.024892] (-) TimerEvent: {}
+[3.125729] (-) TimerEvent: {}
+[3.226465] (-) TimerEvent: {}
+[3.321964] (hat) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.326653] (-) TimerEvent: {}
+[3.427398] (-) TimerEvent: {}
+[3.528095] (-) TimerEvent: {}
+[3.629040] (-) TimerEvent: {}
+[3.684694] (hat) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.729229] (-) TimerEvent: {}
+[3.830053] (-) TimerEvent: {}
+[3.930791] (-) TimerEvent: {}
+[4.031508] (-) TimerEvent: {}
+[4.132293] (-) TimerEvent: {}
+[4.213113] (hat) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.232468] (-) TimerEvent: {}
+[4.333180] (-) TimerEvent: {}
+[4.434096] (-) TimerEvent: {}
+[4.535043] (-) TimerEvent: {}
+[4.635831] (-) TimerEvent: {}
+[4.736559] (-) TimerEvent: {}
+[4.837367] (-) TimerEvent: {}
+[4.938064] (-) TimerEvent: {}
+[4.939905] (hat) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.015577] (hat) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.038239] (-) TimerEvent: {}
+[5.109758] (hat) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.138463] (-) TimerEvent: {}
+[5.239181] (-) TimerEvent: {}
+[5.275066] (hat) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.339364] (-) TimerEvent: {}
+[5.431425] (hat) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.439511] (-) TimerEvent: {}
+[5.540209] (-) TimerEvent: {}
+[5.640929] (-) TimerEvent: {}
+[5.741676] (-) TimerEvent: {}
+[5.842433] (-) TimerEvent: {}
+[5.883908] (hat) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.922296] (hat) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.942606] (-) TimerEvent: {}
+[6.043319] (-) TimerEvent: {}
+[6.144050] (-) TimerEvent: {}
+[6.244743] (-) TimerEvent: {}
+[6.345437] (-) TimerEvent: {}
+[6.446234] (-) TimerEvent: {}
+[6.547103] (-) TimerEvent: {}
+[6.644340] (hat) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.647250] (-) TimerEvent: {}
+[6.748013] (-) TimerEvent: {}
+[6.848784] (-) TimerEvent: {}
+[6.942078] (hat) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.949157] (-) TimerEvent: {}
+[7.050089] (-) TimerEvent: {}
+[7.150951] (-) TimerEvent: {}
+[7.251738] (-) TimerEvent: {}
+[7.352556] (-) TimerEvent: {}
+[7.417233] (hat) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.452720] (-) TimerEvent: {}
+[7.553622] (-) TimerEvent: {}
+[7.559581] (hat) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.653792] (-) TimerEvent: {}
+[7.754624] (-) TimerEvent: {}
+[7.855513] (-) TimerEvent: {}
+[7.956802] (-) TimerEvent: {}
+[7.960931] (hat) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.964748] (hat) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.056988] (-) TimerEvent: {}
+[8.157899] (-) TimerEvent: {}
+[8.259628] (-) TimerEvent: {}
+[8.360529] (-) TimerEvent: {}
+[8.372604] (hat) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[8.376879] (hat) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.460734] (-) TimerEvent: {}
+[8.561714] (-) TimerEvent: {}
+[8.662759] (-) TimerEvent: {}
+[8.763760] (-) TimerEvent: {}
+[8.861612] (hat) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[8.863962] (-) TimerEvent: {}
+[8.964765] (-) TimerEvent: {}
+[9.065621] (-) TimerEvent: {}
+[9.093473] (hat) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[9.165849] (-) TimerEvent: {}
+[9.219693] (hat) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[9.266051] (-) TimerEvent: {}
+[9.366800] (-) TimerEvent: {}
+[9.467546] (-) TimerEvent: {}
+[9.568313] (-) TimerEvent: {}
+[9.669247] (-) TimerEvent: {}
+[9.770139] (-) TimerEvent: {}
+[9.871097] (-) TimerEvent: {}
+[9.971923] (-) TimerEvent: {}
+[10.072663] (-) TimerEvent: {}
+[10.173369] (-) TimerEvent: {}
+[10.274131] (-) TimerEvent: {}
+[10.374804] (-) TimerEvent: {}
+[10.463494] (hat) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[10.465107] (hat) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/mechatech/dev_ws/src/hat/include;/home/mechatech/dev_ws/src/hat/include/hat;/home/mechatech/dev_ws/src/hat/SerialBridge/src\n'}
+[10.465709] (hat) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[10.474989] (-) TimerEvent: {}
+[10.550227] (hat) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[10.575157] (-) TimerEvent: {}
+[10.675831] (-) TimerEvent: {}
+[10.714504] (hat) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.776000] (-) TimerEvent: {}
+[10.798875] (hat) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[10.876167] (-) TimerEvent: {}
+[10.976843] (-) TimerEvent: {}
+[11.077523] (-) TimerEvent: {}
+[11.178235] (-) TimerEvent: {}
+[11.278918] (-) TimerEvent: {}
+[11.379583] (-) TimerEvent: {}
+[11.443663] (hat) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[11.444255] (hat) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[11.479754] (-) TimerEvent: {}
+[11.528711] (hat) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.540038] (hat) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.579954] (-) TimerEvent: {}
+[11.680898] (-) TimerEvent: {}
+[11.782011] (-) TimerEvent: {}
+[11.882823] (-) TimerEvent: {}
+[11.983595] (-) TimerEvent: {}
+[12.084496] (-) TimerEvent: {}
+[12.161129] (hat) StdoutLine: {'line': b'-- Generating done\n'}
+[12.184679] (-) TimerEvent: {}
+[12.190820] (hat) StdoutLine: {'line': b'-- Build files have been written to: /home/mechatech/dev_ws/src/hat/build/hat\n'}
+[12.232898] (hat) CommandEnded: {'returncode': 0}
+[12.235534] (hat) JobProgress: {'identifier': 'hat', 'progress': 'build'}
+[12.243364] (hat) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mechatech/dev_ws/src/hat/build/hat', '--', '-j4', '-l4'], 'cwd': '/home/mechatech/dev_ws/src/hat/build/hat', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mechatech'), ('SSH_CLIENT', '192.168.10.201 42394 22'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/mechatech/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/lib'), ('BROWSER', '/home/mechatech/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/mechatech'), ('OLDPWD', '/home/mechatech/dev_ws/src'), ('TERM_PROGRAM_VERSION', '1.101.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-84e986ee-3941-47f8-b600-9a1fede0d625.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/mechatech/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/mechatech/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/mechatech/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mechatech'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mechatech/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/mechatech/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-063e2dd46e.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/mechatech/dev_ws/install/ls_test:/home/mechatech/dev_ws/install/hat:/home/mechatech/dev_ws/install/feetech_controller:/home/mechatech/dev_ws/install/dc_test:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/mechatech/dev_ws/src/hat/build/hat'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.10.201 42394 192.168.10.215 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/mechatech/dev_ws/install/ls_test:/home/mechatech/dev_ws/install/hat:/home/mechatech/dev_ws/install/feetech_controller:/home/mechatech/dev_ws/install/dc_test:/opt/ros/humble')]), 'shell': False}
+[12.284915] (-) TimerEvent: {}
+[12.385971] (-) TimerEvent: {}
+[12.472943] (hat) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o\x1b[0m\n'}
+[12.486144] (-) TimerEvent: {}
+[12.586841] (-) TimerEvent: {}
+[12.687589] (-) TimerEvent: {}
+[12.788522] (-) TimerEvent: {}
+[12.889288] (-) TimerEvent: {}
+[12.990348] (-) TimerEvent: {}
+[13.091089] (-) TimerEvent: {}
+[13.192030] (-) TimerEvent: {}
+[13.292785] (-) TimerEvent: {}
+[13.393554] (-) TimerEvent: {}
+[13.494359] (-) TimerEvent: {}
+[13.595161] (-) TimerEvent: {}
+[13.696131] (-) TimerEvent: {}
+[13.797315] (-) TimerEvent: {}
+[13.898112] (-) TimerEvent: {}
+[13.998872] (-) TimerEvent: {}
+[14.099693] (-) TimerEvent: {}
+[14.200818] (-) TimerEvent: {}
+[14.301607] (-) TimerEvent: {}
+[14.402619] (-) TimerEvent: {}
+[14.503713] (-) TimerEvent: {}
+[14.604611] (-) TimerEvent: {}
+[14.705696] (-) TimerEvent: {}
+[14.806656] (-) TimerEvent: {}
+[14.907397] (-) TimerEvent: {}
+[15.008205] (-) TimerEvent: {}
+[15.108941] (-) TimerEvent: {}
+[15.209735] (-) TimerEvent: {}
+[15.310542] (-) TimerEvent: {}
+[15.411446] (-) TimerEvent: {}
+[15.512219] (-) TimerEvent: {}
+[15.613044] (-) TimerEvent: {}
+[15.713857] (-) TimerEvent: {}
+[15.814778] (-) TimerEvent: {}
+[15.915854] (-) TimerEvent: {}
+[16.016754] (-) TimerEvent: {}
+[16.117622] (-) TimerEvent: {}
+[16.218455] (-) TimerEvent: {}
+[16.319391] (-) TimerEvent: {}
+[16.420351] (-) TimerEvent: {}
+[16.521213] (-) TimerEvent: {}
+[16.622060] (-) TimerEvent: {}
+[16.722825] (-) TimerEvent: {}
+[16.823666] (-) TimerEvent: {}
+[16.924465] (-) TimerEvent: {}
+[17.025273] (-) TimerEvent: {}
+[17.126117] (-) TimerEvent: {}
+[17.226878] (-) TimerEvent: {}
+[17.327731] (-) TimerEvent: {}
+[17.428567] (-) TimerEvent: {}
+[17.529348] (-) TimerEvent: {}
+[17.630152] (-) TimerEvent: {}
+[17.731043] (-) TimerEvent: {}
+[17.831858] (-) TimerEvent: {}
+[17.932693] (-) TimerEvent: {}
+[18.033534] (-) TimerEvent: {}
+[18.134623] (-) TimerEvent: {}
+[18.235512] (-) TimerEvent: {}
+[18.336320] (-) TimerEvent: {}
+[18.437215] (-) TimerEvent: {}
+[18.538067] (-) TimerEvent: {}
+[18.638846] (-) TimerEvent: {}
+[18.739698] (-) TimerEvent: {}
+[18.840489] (-) TimerEvent: {}
+[18.941300] (-) TimerEvent: {}
+[19.042104] (-) TimerEvent: {}
+[19.142886] (-) TimerEvent: {}
+[19.243720] (-) TimerEvent: {}
+[19.344509] (-) TimerEvent: {}
+[19.445286] (-) TimerEvent: {}
+[19.546109] (-) TimerEvent: {}
+[19.646895] (-) TimerEvent: {}
+[19.747683] (-) TimerEvent: {}
+[19.848458] (-) TimerEvent: {}
+[19.949262] (-) TimerEvent: {}
+[20.050097] (-) TimerEvent: {}
+[20.150904] (-) TimerEvent: {}
+[20.251748] (-) TimerEvent: {}
+[20.352540] (-) TimerEvent: {}
+[20.453342] (-) TimerEvent: {}
+[20.554151] (-) TimerEvent: {}
+[20.655013] (-) TimerEvent: {}
+[20.755808] (-) TimerEvent: {}
+[20.856583] (-) TimerEvent: {}
+[20.957342] (-) TimerEvent: {}
+[21.058156] (-) TimerEvent: {}
+[21.159029] (-) TimerEvent: {}
+[21.259883] (-) TimerEvent: {}
+[21.360663] (-) TimerEvent: {}
+[21.461462] (-) TimerEvent: {}
+[21.562280] (-) TimerEvent: {}
+[21.663182] (-) TimerEvent: {}
+[21.763973] (-) TimerEvent: {}
+[21.864816] (-) TimerEvent: {}
+[21.965665] (-) TimerEvent: {}
+[22.066570] (-) TimerEvent: {}
+[22.167355] (-) TimerEvent: {}
+[22.268169] (-) TimerEvent: {}
+[22.368960] (-) TimerEvent: {}
+[22.469771] (-) TimerEvent: {}
+[22.570594] (-) TimerEvent: {}
+[22.671393] (-) TimerEvent: {}
+[22.772192] (-) TimerEvent: {}
+[22.872986] (-) TimerEvent: {}
+[22.973794] (-) TimerEvent: {}
+[23.074735] (-) TimerEvent: {}
+[23.175539] (-) TimerEvent: {}
+[23.276419] (-) TimerEvent: {}
+[23.377264] (-) TimerEvent: {}
+[23.478138] (-) TimerEvent: {}
+[23.579191] (-) TimerEvent: {}
+[23.680112] (-) TimerEvent: {}
+[23.780885] (-) TimerEvent: {}
+[23.881633] (-) TimerEvent: {}
+[23.982504] (-) TimerEvent: {}
+[24.083277] (-) TimerEvent: {}
+[24.184059] (-) TimerEvent: {}
+[24.284904] (-) TimerEvent: {}
+[24.385903] (-) TimerEvent: {}
+[24.486747] (-) TimerEvent: {}
+[24.587568] (-) TimerEvent: {}
+[24.688412] (-) TimerEvent: {}
+[24.789343] (-) TimerEvent: {}
+[24.890197] (-) TimerEvent: {}
+[24.990964] (-) TimerEvent: {}
+[25.091761] (-) TimerEvent: {}
+[25.192579] (-) TimerEvent: {}
+[25.293374] (-) TimerEvent: {}
+[25.394288] (-) TimerEvent: {}
+[25.495256] (-) TimerEvent: {}
+[25.596057] (-) TimerEvent: {}
+[25.696857] (-) TimerEvent: {}
+[25.797781] (-) TimerEvent: {}
+[25.898653] (-) TimerEvent: {}
+[25.999445] (-) TimerEvent: {}
+[26.100239] (-) TimerEvent: {}
+[26.201048] (-) TimerEvent: {}
+[26.301900] (-) TimerEvent: {}
+[26.402725] (-) TimerEvent: {}
+[26.503528] (-) TimerEvent: {}
+[26.604295] (-) TimerEvent: {}
+[26.705119] (-) TimerEvent: {}
+[26.805963] (-) TimerEvent: {}
+[26.906796] (-) TimerEvent: {}
+[27.007615] (-) TimerEvent: {}
+[27.108407] (-) TimerEvent: {}
+[27.209219] (-) TimerEvent: {}
+[27.310097] (-) TimerEvent: {}
+[27.410902] (-) TimerEvent: {}
+[27.511687] (-) TimerEvent: {}
+[27.612486] (-) TimerEvent: {}
+[27.713296] (-) TimerEvent: {}
+[27.814165] (-) TimerEvent: {}
+[27.914931] (-) TimerEvent: {}
+[28.015840] (-) TimerEvent: {}
+[28.116873] (-) TimerEvent: {}
+[28.217730] (-) TimerEvent: {}
+[28.318552] (-) TimerEvent: {}
+[28.419428] (-) TimerEvent: {}
+[28.520201] (-) TimerEvent: {}
+[28.621002] (-) TimerEvent: {}
+[28.721838] (-) TimerEvent: {}
+[28.822652] (-) TimerEvent: {}
+[28.923414] (-) TimerEvent: {}
+[29.024304] (-) TimerEvent: {}
+[29.125589] (-) TimerEvent: {}
+[29.226423] (-) TimerEvent: {}
+[29.327209] (-) TimerEvent: {}
+[29.427981] (-) TimerEvent: {}
+[29.528770] (-) TimerEvent: {}
+[29.629585] (-) TimerEvent: {}
+[29.730588] (-) TimerEvent: {}
+[29.831524] (-) TimerEvent: {}
+[29.932388] (-) TimerEvent: {}
+[30.033281] (-) TimerEvent: {}
+[30.134081] (-) TimerEvent: {}
+[30.235082] (-) TimerEvent: {}
+[30.336357] (-) TimerEvent: {}
+[30.437646] (-) TimerEvent: {}
+[30.538515] (-) TimerEvent: {}
+[30.639331] (-) TimerEvent: {}
+[30.740191] (-) TimerEvent: {}
+[30.840982] (-) TimerEvent: {}
+[30.941776] (-) TimerEvent: {}
+[31.042605] (-) TimerEvent: {}
+[31.143381] (-) TimerEvent: {}
+[31.244216] (-) TimerEvent: {}
+[31.345017] (-) TimerEvent: {}
+[31.445819] (-) TimerEvent: {}
+[31.546648] (-) TimerEvent: {}
+[31.647436] (-) TimerEvent: {}
+[31.748294] (-) TimerEvent: {}
+[31.849091] (-) TimerEvent: {}
+[31.949895] (-) TimerEvent: {}
+[32.050677] (-) TimerEvent: {}
+[32.151459] (-) TimerEvent: {}
+[32.252281] (-) TimerEvent: {}
+[32.353100] (-) TimerEvent: {}
+[32.453918] (-) TimerEvent: {}
+[32.554797] (-) TimerEvent: {}
+[32.655632] (-) TimerEvent: {}
+[32.756450] (-) TimerEvent: {}
+[32.857256] (-) TimerEvent: {}
+[32.958266] (-) TimerEvent: {}
+[33.059715] (-) TimerEvent: {}
+[33.160828] (-) TimerEvent: {}
+[33.261640] (-) TimerEvent: {}
+[33.362506] (-) TimerEvent: {}
+[33.463352] (-) TimerEvent: {}
+[33.564132] (-) TimerEvent: {}
+[33.664948] (-) TimerEvent: {}
+[33.766584] (-) TimerEvent: {}
+[33.867928] (-) TimerEvent: {}
+[33.969013] (-) TimerEvent: {}
+[34.069972] (-) TimerEvent: {}
+[34.170827] (-) TimerEvent: {}
+[34.271653] (-) TimerEvent: {}
+[34.372461] (-) TimerEvent: {}
+[34.473263] (-) TimerEvent: {}
+[34.574115] (-) TimerEvent: {}
+[34.674971] (-) TimerEvent: {}
+[34.776150] (-) TimerEvent: {}
+[34.876936] (-) TimerEvent: {}
+[34.977838] (-) TimerEvent: {}
+[35.078658] (-) TimerEvent: {}
+[35.179466] (-) TimerEvent: {}
+[35.280235] (-) TimerEvent: {}
+[35.381009] (-) TimerEvent: {}
+[35.481828] (-) TimerEvent: {}
+[35.582690] (-) TimerEvent: {}
+[35.683473] (-) TimerEvent: {}
+[35.784281] (-) TimerEvent: {}
+[35.885065] (-) TimerEvent: {}
+[35.985876] (-) TimerEvent: {}
+[36.086673] (-) TimerEvent: {}
+[36.187407] (-) TimerEvent: {}
+[36.288214] (-) TimerEvent: {}
+[36.389015] (-) TimerEvent: {}
+[36.489804] (-) TimerEvent: {}
+[36.590739] (-) TimerEvent: {}
+[36.691846] (-) TimerEvent: {}
+[36.792648] (-) TimerEvent: {}
+[36.893487] (-) TimerEvent: {}
+[36.994337] (-) TimerEvent: {}
+[37.095101] (-) TimerEvent: {}
+[37.195958] (-) TimerEvent: {}
+[37.296769] (-) TimerEvent: {}
+[37.397631] (-) TimerEvent: {}
+[37.498586] (-) TimerEvent: {}
+[37.599386] (-) TimerEvent: {}
+[37.700165] (-) TimerEvent: {}
+[37.800966] (-) TimerEvent: {}
+[37.901874] (-) TimerEvent: {}
+[38.002781] (-) TimerEvent: {}
+[38.103741] (-) TimerEvent: {}
+[38.204503] (-) TimerEvent: {}
+[38.305304] (-) TimerEvent: {}
+[38.406096] (-) TimerEvent: {}
+[38.506886] (-) TimerEvent: {}
+[38.607690] (-) TimerEvent: {}
+[38.708486] (-) TimerEvent: {}
+[38.809289] (-) TimerEvent: {}
+[38.910120] (-) TimerEvent: {}
+[39.010931] (-) TimerEvent: {}
+[39.111733] (-) TimerEvent: {}
+[39.212629] (-) TimerEvent: {}
+[39.313420] (-) TimerEvent: {}
+[39.414231] (-) TimerEvent: {}
+[39.515013] (-) TimerEvent: {}
+[39.615768] (-) TimerEvent: {}
+[39.716550] (-) TimerEvent: {}
+[39.817331] (-) TimerEvent: {}
+[39.918122] (-) TimerEvent: {}
+[40.018914] (-) TimerEvent: {}
+[40.119720] (-) TimerEvent: {}
+[40.220519] (-) TimerEvent: {}
+[40.321296] (-) TimerEvent: {}
+[40.422097] (-) TimerEvent: {}
+[40.522883] (-) TimerEvent: {}
+[40.623659] (-) TimerEvent: {}
+[40.724431] (-) TimerEvent: {}
+[40.825277] (-) TimerEvent: {}
+[40.926090] (-) TimerEvent: {}
+[41.026870] (-) TimerEvent: {}
+[41.127649] (-) TimerEvent: {}
+[41.228449] (-) TimerEvent: {}
+[41.329262] (-) TimerEvent: {}
+[41.430074] (-) TimerEvent: {}
+[41.530890] (-) TimerEvent: {}
+[41.631659] (-) TimerEvent: {}
+[41.732435] (-) TimerEvent: {}
+[41.833308] (-) TimerEvent: {}
+[41.934279] (-) TimerEvent: {}
+[42.035132] (-) TimerEvent: {}
+[42.135912] (-) TimerEvent: {}
+[42.236740] (-) TimerEvent: {}
+[42.337547] (-) TimerEvent: {}
+[42.438386] (-) TimerEvent: {}
+[42.539133] (-) TimerEvent: {}
+[42.639934] (-) TimerEvent: {}
+[42.740789] (-) TimerEvent: {}
+[42.841579] (-) TimerEvent: {}
+[42.942564] (-) TimerEvent: {}
+[43.043361] (-) TimerEvent: {}
+[43.144377] (-) TimerEvent: {}
+[43.245197] (-) TimerEvent: {}
+[43.346035] (-) TimerEvent: {}
+[43.446824] (-) TimerEvent: {}
+[43.547600] (-) TimerEvent: {}
+[43.648353] (-) TimerEvent: {}
+[43.749213] (-) TimerEvent: {}
+[43.850329] (-) TimerEvent: {}
+[43.951099] (-) TimerEvent: {}
+[44.051857] (-) TimerEvent: {}
+[44.152690] (-) TimerEvent: {}
+[44.253515] (-) TimerEvent: {}
+[44.354335] (-) TimerEvent: {}
+[44.455114] (-) TimerEvent: {}
+[44.555956] (-) TimerEvent: {}
+[44.656871] (-) TimerEvent: {}
+[44.758086] (-) TimerEvent: {}
+[44.859255] (-) TimerEvent: {}
+[44.960464] (-) TimerEvent: {}
+[45.061532] (-) TimerEvent: {}
+[45.162327] (-) TimerEvent: {}
+[45.263105] (-) TimerEvent: {}
+[45.363913] (-) TimerEvent: {}
+[45.464652] (-) TimerEvent: {}
+[45.565448] (-) TimerEvent: {}
+[45.666256] (-) TimerEvent: {}
+[45.767110] (-) TimerEvent: {}
+[45.867987] (-) TimerEvent: {}
+[45.968771] (-) TimerEvent: {}
+[46.069561] (-) TimerEvent: {}
+[46.170328] (-) TimerEvent: {}
+[46.271076] (-) TimerEvent: {}
+[46.371884] (-) TimerEvent: {}
+[46.472666] (-) TimerEvent: {}
+[46.573537] (-) TimerEvent: {}
+[46.674340] (-) TimerEvent: {}
+[46.775096] (-) TimerEvent: {}
+[46.875967] (-) TimerEvent: {}
+[46.977267] (-) TimerEvent: {}
+[47.080364] (-) TimerEvent: {}
+[47.181630] (-) TimerEvent: {}
+[47.282479] (-) TimerEvent: {}
+[47.383603] (-) TimerEvent: {}
+[47.485020] (-) TimerEvent: {}
+[47.586079] (-) TimerEvent: {}
+[47.686929] (-) TimerEvent: {}
+[47.701012] (hat) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable main\x1b[0m\n'}
+[47.787106] (-) TimerEvent: {}
+[47.887797] (-) TimerEvent: {}
+[47.988676] (-) TimerEvent: {}
+[48.089590] (-) TimerEvent: {}
+[48.190555] (-) TimerEvent: {}
+[48.292771] (-) TimerEvent: {}
+[48.394600] (-) TimerEvent: {}
+[48.495760] (-) TimerEvent: {}
+[48.596862] (-) TimerEvent: {}
+[48.698189] (-) TimerEvent: {}
+[48.799276] (-) TimerEvent: {}
+[48.900768] (-) TimerEvent: {}
+[49.002149] (-) TimerEvent: {}
+[49.103537] (-) TimerEvent: {}
+[49.204675] (-) TimerEvent: {}
+[49.306143] (-) TimerEvent: {}
+[49.407831] (-) TimerEvent: {}
+[49.509398] (-) TimerEvent: {}
+[49.610950] (-) TimerEvent: {}
+[49.712464] (-) TimerEvent: {}
+[49.813817] (-) TimerEvent: {}
+[49.915225] (-) TimerEvent: {}
+[50.016433] (-) TimerEvent: {}
+[50.118072] (-) TimerEvent: {}
+[50.219059] (-) TimerEvent: {}
+[50.320007] (-) TimerEvent: {}
+[50.420981] (-) TimerEvent: {}
+[50.522045] (-) TimerEvent: {}
+[50.622967] (-) TimerEvent: {}
+[50.724065] (-) TimerEvent: {}
+[50.825617] (-) TimerEvent: {}
+[50.926789] (-) TimerEvent: {}
+[51.028141] (-) TimerEvent: {}
+[51.129186] (-) TimerEvent: {}
+[51.230127] (-) TimerEvent: {}
+[51.331252] (-) TimerEvent: {}
+[51.432716] (-) TimerEvent: {}
+[51.534282] (-) TimerEvent: {}
+[51.635731] (-) TimerEvent: {}
+[51.737175] (-) TimerEvent: {}
+[51.838135] (-) TimerEvent: {}
+[51.939208] (-) TimerEvent: {}
+[52.040362] (-) TimerEvent: {}
+[52.141393] (-) TimerEvent: {}
+[52.242739] (-) TimerEvent: {}
+[52.344113] (-) TimerEvent: {}
+[52.445241] (-) TimerEvent: {}
+[52.546455] (-) TimerEvent: {}
+[52.647746] (-) TimerEvent: {}
+[52.748790] (-) TimerEvent: {}
+[52.849931] (-) TimerEvent: {}
+[52.951345] (-) TimerEvent: {}
+[53.052749] (-) TimerEvent: {}
+[53.153853] (-) TimerEvent: {}
+[53.255390] (-) TimerEvent: {}
+[53.356489] (-) TimerEvent: {}
+[53.457856] (-) TimerEvent: {}
+[53.558835] (-) TimerEvent: {}
+[53.659991] (-) TimerEvent: {}
+[53.761519] (-) TimerEvent: {}
+[53.862495] (-) TimerEvent: {}
+[53.963465] (-) TimerEvent: {}
+[54.064574] (-) TimerEvent: {}
+[54.165655] (-) TimerEvent: {}
+[54.267110] (-) TimerEvent: {}
+[54.368245] (-) TimerEvent: {}
+[54.469634] (-) TimerEvent: {}
+[54.570851] (-) TimerEvent: {}
+[54.672022] (-) TimerEvent: {}
+[54.773259] (-) TimerEvent: {}
+[54.874349] (-) TimerEvent: {}
+[54.975443] (-) TimerEvent: {}
+[55.076925] (-) TimerEvent: {}
+[55.178307] (-) TimerEvent: {}
+[55.279815] (-) TimerEvent: {}
+[55.380745] (-) TimerEvent: {}
+[55.481597] (-) TimerEvent: {}
+[55.582303] (-) TimerEvent: {}
+[55.682992] (-) TimerEvent: {}
+[55.783836] (-) TimerEvent: {}
+[55.884842] (-) TimerEvent: {}
+[55.985656] (-) TimerEvent: {}
+[56.086719] (-) TimerEvent: {}
+[56.188280] (-) TimerEvent: {}
+[56.288975] (-) TimerEvent: {}
+[56.385825] (hat) StdoutLine: {'line': b'[100%] Built target main\n'}
+[56.389174] (-) TimerEvent: {}
+[56.426719] (hat) CommandEnded: {'returncode': 0}
+[56.428853] (hat) JobProgress: {'identifier': 'hat', 'progress': 'install'}
+[56.467265] (hat) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mechatech/dev_ws/src/hat/build/hat'], 'cwd': '/home/mechatech/dev_ws/src/hat/build/hat', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mechatech'), ('SSH_CLIENT', '192.168.10.201 42394 22'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/mechatech/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/lib'), ('BROWSER', '/home/mechatech/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/mechatech'), ('OLDPWD', '/home/mechatech/dev_ws/src'), ('TERM_PROGRAM_VERSION', '1.101.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-84e986ee-3941-47f8-b600-9a1fede0d625.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/mechatech/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/mechatech/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/mechatech/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mechatech'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mechatech/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/mechatech/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-063e2dd46e.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/mechatech/dev_ws/install/ls_test:/home/mechatech/dev_ws/install/hat:/home/mechatech/dev_ws/install/feetech_controller:/home/mechatech/dev_ws/install/dc_test:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/mechatech/dev_ws/src/hat/build/hat'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.10.201 42394 192.168.10.215 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/mechatech/dev_ws/install/ls_test:/home/mechatech/dev_ws/install/hat:/home/mechatech/dev_ws/install/feetech_controller:/home/mechatech/dev_ws/install/dc_test:/opt/ros/humble')]), 'shell': False}
+[56.489370] (-) TimerEvent: {}
+[56.500228] (hat) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[56.501797] (hat) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[56.505051] (hat) StdoutLine: {'line': b'-- Symlinking: /home/mechatech/dev_ws/src/hat/install/hat/lib/hat/main\n'}
+[56.539785] (hat) StdoutLine: {'line': b'-- Symlinking: /home/mechatech/dev_ws/src/hat/install/hat/share/ament_index/resource_index/package_run_dependencies/hat\n'}
+[56.574625] (hat) StdoutLine: {'line': b'-- Symlinking: /home/mechatech/dev_ws/src/hat/install/hat/share/ament_index/resource_index/parent_prefix_path/hat\n'}
+[56.589586] (-) TimerEvent: {}
+[56.609158] (hat) StdoutLine: {'line': b'-- Symlinking: /home/mechatech/dev_ws/src/hat/install/hat/share/hat/environment/ament_prefix_path.sh\n'}
+[56.642696] (hat) StdoutLine: {'line': b'-- Symlinking: /home/mechatech/dev_ws/src/hat/install/hat/share/hat/environment/ament_prefix_path.dsv\n'}
+[56.676980] (hat) StdoutLine: {'line': b'-- Symlinking: /home/mechatech/dev_ws/src/hat/install/hat/share/hat/environment/path.sh\n'}
+[56.689774] (-) TimerEvent: {}
+[56.710541] (hat) StdoutLine: {'line': b'-- Symlinking: /home/mechatech/dev_ws/src/hat/install/hat/share/hat/environment/path.dsv\n'}
+[56.743345] (hat) StdoutLine: {'line': b'-- Symlinking: /home/mechatech/dev_ws/src/hat/install/hat/share/hat/local_setup.bash\n'}
+[56.777134] (hat) StdoutLine: {'line': b'-- Symlinking: /home/mechatech/dev_ws/src/hat/install/hat/share/hat/local_setup.sh\n'}
+[56.789947] (-) TimerEvent: {}
+[56.810574] (hat) StdoutLine: {'line': b'-- Symlinking: /home/mechatech/dev_ws/src/hat/install/hat/share/hat/local_setup.zsh\n'}
+[56.843673] (hat) StdoutLine: {'line': b'-- Symlinking: /home/mechatech/dev_ws/src/hat/install/hat/share/hat/local_setup.dsv\n'}
+[56.880444] (hat) StdoutLine: {'line': b'-- Symlinking: /home/mechatech/dev_ws/src/hat/install/hat/share/hat/package.dsv\n'}
+[56.890146] (-) TimerEvent: {}
+[56.914163] (hat) StdoutLine: {'line': b'-- Symlinking: /home/mechatech/dev_ws/src/hat/install/hat/share/ament_index/resource_index/packages/hat\n'}
+[56.951020] (hat) StdoutLine: {'line': b'-- Symlinking: /home/mechatech/dev_ws/src/hat/install/hat/share/hat/cmake/hatConfig.cmake\n'}
+[56.986524] (hat) StdoutLine: {'line': b'-- Symlinking: /home/mechatech/dev_ws/src/hat/install/hat/share/hat/cmake/hatConfig-version.cmake\n'}
+[56.990440] (-) TimerEvent: {}
+[57.020837] (hat) StdoutLine: {'line': b'-- Symlinking: /home/mechatech/dev_ws/src/hat/install/hat/share/hat/package.xml\n'}
+[57.059588] (hat) CommandEnded: {'returncode': 0}
+[57.090598] (-) TimerEvent: {}
+[57.191720] (-) TimerEvent: {}
+[57.209821] (hat) JobEnded: {'identifier': 'hat', 'rc': 0}
+[57.212468] (-) EventReactorShutdown: {}

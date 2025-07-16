@@ -1,0 +1,73 @@
+[0.064s] Invoking command in '/home/mechatech/dev_ws/src/hat/build/hat': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mechatech/dev_ws/src/hat -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mechatech/dev_ws/src/hat/install/hat
+[0.913s] -- The C compiler identification is GNU 11.4.0
+[1.475s] -- The CXX compiler identification is GNU 11.4.0
+[1.536s] -- Detecting C compiler ABI info
+[1.949s] -- Detecting C compiler ABI info - done
+[1.976s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.979s] -- Detecting C compile features
+[1.983s] -- Detecting C compile features - done
+[2.001s] -- Detecting CXX compiler ABI info
+[2.427s] -- Detecting CXX compiler ABI info - done
+[2.453s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.454s] -- Detecting CXX compile features
+[2.456s] -- Detecting CXX compile features - done
+[2.502s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.320s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.682s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.211s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[4.938s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.013s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.108s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.273s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.429s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.882s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.920s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.642s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.940s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.415s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.558s] -- Looking for pthread.h
+[7.959s] -- Looking for pthread.h - found
+[7.963s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.370s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.375s] -- Found Threads: TRUE  
+[8.859s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[9.093s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[9.218s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.461s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.463s] -- Configured cppcheck include dirs: /home/mechatech/dev_ws/src/hat/include;/home/mechatech/dev_ws/src/hat/include/hat;/home/mechatech/dev_ws/src/hat/SerialBridge/src
+[10.463s] -- Configured cppcheck exclude dirs and/or files: 
+[10.548s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.712s] -- Added test 'lint_cmake' to check CMake code style
+[10.797s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[11.441s] -- Added test 'uncrustify' to check C / C++ code style
+[11.442s] -- Configured uncrustify additional arguments: 
+[11.526s] -- Added test 'xmllint' to check XML markup files
+[11.538s] -- Configuring done
+[12.159s] -- Generating done
+[12.189s] -- Build files have been written to: /home/mechatech/dev_ws/src/hat/build/hat
+[12.231s] Invoked command in '/home/mechatech/dev_ws/src/hat/build/hat' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mechatech/dev_ws/src/hat -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mechatech/dev_ws/src/hat/install/hat
+[12.243s] Invoking command in '/home/mechatech/dev_ws/src/hat/build/hat': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mechatech/dev_ws/src/hat/build/hat -- -j4 -l4
+[12.471s] [ 50%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[47.699s] [100%] [32m[1mLinking CXX executable main[0m
+[56.384s] [100%] Built target main
+[56.425s] Invoked command in '/home/mechatech/dev_ws/src/hat/build/hat' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mechatech/dev_ws/src/hat/build/hat -- -j4 -l4
+[56.468s] Invoking command in '/home/mechatech/dev_ws/src/hat/build/hat': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mechatech/dev_ws/src/hat/build/hat
+[56.498s] -- Install configuration: ""
+[56.499s] -- Execute custom install script
+[56.503s] -- Symlinking: /home/mechatech/dev_ws/src/hat/install/hat/lib/hat/main
+[56.537s] -- Symlinking: /home/mechatech/dev_ws/src/hat/install/hat/share/ament_index/resource_index/package_run_dependencies/hat
+[56.572s] -- Symlinking: /home/mechatech/dev_ws/src/hat/install/hat/share/ament_index/resource_index/parent_prefix_path/hat
+[56.607s] -- Symlinking: /home/mechatech/dev_ws/src/hat/install/hat/share/hat/environment/ament_prefix_path.sh
+[56.640s] -- Symlinking: /home/mechatech/dev_ws/src/hat/install/hat/share/hat/environment/ament_prefix_path.dsv
+[56.675s] -- Symlinking: /home/mechatech/dev_ws/src/hat/install/hat/share/hat/environment/path.sh
+[56.708s] -- Symlinking: /home/mechatech/dev_ws/src/hat/install/hat/share/hat/environment/path.dsv
+[56.741s] -- Symlinking: /home/mechatech/dev_ws/src/hat/install/hat/share/hat/local_setup.bash
+[56.775s] -- Symlinking: /home/mechatech/dev_ws/src/hat/install/hat/share/hat/local_setup.sh
+[56.808s] -- Symlinking: /home/mechatech/dev_ws/src/hat/install/hat/share/hat/local_setup.zsh
+[56.841s] -- Symlinking: /home/mechatech/dev_ws/src/hat/install/hat/share/hat/local_setup.dsv
+[56.878s] -- Symlinking: /home/mechatech/dev_ws/src/hat/install/hat/share/hat/package.dsv
+[56.912s] -- Symlinking: /home/mechatech/dev_ws/src/hat/install/hat/share/ament_index/resource_index/packages/hat
+[56.949s] -- Symlinking: /home/mechatech/dev_ws/src/hat/install/hat/share/hat/cmake/hatConfig.cmake
+[56.984s] -- Symlinking: /home/mechatech/dev_ws/src/hat/install/hat/share/hat/cmake/hatConfig-version.cmake
+[57.019s] -- Symlinking: /home/mechatech/dev_ws/src/hat/install/hat/share/hat/package.xml
+[57.058s] Invoked command in '/home/mechatech/dev_ws/src/hat/build/hat' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mechatech/dev_ws/src/hat/build/hat

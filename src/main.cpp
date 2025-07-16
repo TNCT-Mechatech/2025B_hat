@@ -139,7 +139,7 @@ private:
 
   float lx, ly, rx, ry, l2, r2;
   bool cross, circle, triangle, square, l1, r1;
-  bool up, down;
+  bool up, down, left, right;
 };
 
 

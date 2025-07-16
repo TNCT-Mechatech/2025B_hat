@@ -1,0 +1,1 @@
+/home/mechatech/dev_ws/src/hat/build/hat/ament_cmake_core/hatConfig-version.cmake

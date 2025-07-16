@@ -1,0 +1,4 @@
+source;share/hat/local_setup.bash
+source;share/hat/local_setup.dsv
+source;share/hat/local_setup.sh
+source;share/hat/local_setup.zsh
